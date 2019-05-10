@@ -1,0 +1,20 @@
+{
+  "name": "Automation-Test-with-WebdriverIO-from-Scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuHuynhVan/Automation-Test-with-WebdriverIO-from-Scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuHuynhVan/Automation-Test-with-WebdriverIO-from-Scratch/issues"
+  },
+  "homepage": "https://github.com/TuHuynhVan/Automation-Test-with-WebdriverIO-from-Scratch#readme"
+}
