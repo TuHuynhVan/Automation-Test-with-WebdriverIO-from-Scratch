@@ -1,4 +1,14 @@
 exports.config = {
+
+    // Test Scripts
+    specs: [
+        "TC_001_Login.js"
+    ],
+    capabilities: [
+        {
+            browserName: "chrome"
+        }
+    ],
     runner: 'local',
 
     // Declare server info
