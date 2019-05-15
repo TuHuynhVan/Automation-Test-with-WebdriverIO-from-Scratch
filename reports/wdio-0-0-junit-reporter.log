@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="API_Learning" timestamp="2019-05-15T19:05:17" time="11.678" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="API Learning"/>
+      <property name="capabilities" value="chrome.74_0_3729_131.windowsnt"/>
+      <property name="file" value=".\src\setValue.js"/>
+    </properties>
+    <testcase classname="chrome.74_0_3729_131.windowsnt.API_Learning" name="Set_value_to_a_text_box" time="11.677">
+      <error message="Can't call setValue on element with selector &quot;#username_&quot; because element wasn't found"/>
+      <system-err>
+        <![CDATA[
+Error: Can't call setValue on element with selector "#username_" because element wasn't found
+    at implicitWait (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriverio\build\utils\implicitWait.js:34:13)
+    at Element.runCommand (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\wrapCommand.js:31:24)
+    at Element.<anonymous> (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\wrapCommand.js:53:31)
+    at Element.<anonymous> (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriverio\build\middlewares.js:50:8)
+    at Context.it (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\setValue.js:8:29)
+    at Promise (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:58:22)
+    at Context.executeSync (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:56:10)
+    at C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:202:70
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
