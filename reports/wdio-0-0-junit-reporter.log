@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Learning_API" timestamp="2019-05-18T14:26:18" time="8.162" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API_learning" timestamp="2019-05-18T15:20:17" time="7.836" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="Learning API"/>
+      <property name="suiteName" value="API learning"/>
       <property name="capabilities" value="chrome.74_0_3729_157.windowsnt"/>
-      <property name="file" value=".\src\waitForDisplayed.js"/>
+      <property name="file" value=".\src\click.js"/>
     </properties>
-    <testcase classname="chrome.74_0_3729_157.windowsnt.Learning_API" name="waitForDisplayed" time="8.16"/>
+    <testcase classname="chrome.74_0_3729_157.windowsnt.API_learning" name="Click_on_Link_Text" time="7.834"/>
   </testsuite>
 </testsuites>
