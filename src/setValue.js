@@ -1,11 +1,11 @@
-describe('API Learning', () => {
+describe('Learning API', () => {
 
-    it('Set value to a text box', () => {
-        browser.url("http://the-internet.herokuapp.com/login");
+    it('Set value to a textbox', () => {
+        browser.url("https://the-internet.herokuapp.com/login");
         browser.pause(2000);
 
         let usernameSelector = "#username";
-        $(usernameSelector).setValue("Tu Huynh");
+        $(usernameSelector).setValue("Huong Giang");
 
         browser.pause(3000);
     });

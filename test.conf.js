@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "./src/setValue.js"
+        "src/waitForDisplayed.js"
     ],
     capabilities: [
         {
