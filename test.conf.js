@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/getText.js"
+        "src/getUrlAndTitle.js"
     ],
     capabilities: [
         {

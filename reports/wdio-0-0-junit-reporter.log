@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API_Learning" timestamp="2019-05-19T14:11:31" time="4.035" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API_Learning" timestamp="2019-05-19T14:46:07" time="3.204" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="API Learning"/>
       <property name="capabilities" value="chrome.74_0_3729_157.windowsnt"/>
-      <property name="file" value=".\src\getText.js"/>
+      <property name="file" value=".\src\getUrlAndTitle.js"/>
     </properties>
-    <testcase classname="chrome.74_0_3729_157.windowsnt.API_Learning" name="Learn_getText_API" time="4.034"/>
+    <testcase classname="chrome.74_0_3729_157.windowsnt.API_Learning" name="getUrl_and_getTitle_API" time="3.203"/>
   </testsuite>
 </testsuites>
