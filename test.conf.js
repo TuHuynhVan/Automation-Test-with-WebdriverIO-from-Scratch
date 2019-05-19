@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/selectBy.js"
+        "src/getText.js"
     ],
     capabilities: [
         {
