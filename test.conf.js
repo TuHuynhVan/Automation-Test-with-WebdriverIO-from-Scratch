@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/handleMultipleTabs.js"
+        "src/cssHandle.js"
     ],
     capabilities: [
         {
