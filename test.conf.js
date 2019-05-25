@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/getUrlAndTitle.js"
+        "src/alertHandle.js"
     ],
     capabilities: [
         {
