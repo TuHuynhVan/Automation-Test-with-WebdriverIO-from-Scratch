@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/cssHandle.js"
+        "src/getAttribute.js"
     ],
     capabilities: [
         {

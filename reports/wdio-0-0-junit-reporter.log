@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API_Learning" timestamp="2019-05-25T15:37:11" time="3.461" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API_Learning" timestamp="2019-05-25T15:57:09" time="3.504" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="API Learning"/>
       <property name="capabilities" value="chrome.74_0_3729_169.windowsnt"/>
-      <property name="file" value=".\src\cssHandle.js"/>
+      <property name="file" value=".\src\getAttribute.js"/>
     </properties>
-    <testcase classname="chrome.74_0_3729_169.windowsnt.API_Learning" name="Get_Color_CSS_value" time="3.459"/>
+    <testcase classname="chrome.74_0_3729_169.windowsnt.API_Learning" name="Get_Attribute_for_username_text_box" time="3.504"/>
   </testsuite>
 </testsuites>
