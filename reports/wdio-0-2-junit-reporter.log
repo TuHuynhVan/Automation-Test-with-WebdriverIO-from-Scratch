@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BrowserStack" timestamp="2019-05-30T14:48:40" time="28.042" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="BrowserStack"/>
+      <property name="capabilities" value="chrome.74_0_3729_131.xp"/>
+      <property name="file" value=".\src\browserStack.2.js"/>
+    </properties>
+    <testcase classname="chrome.74_0_3729_131.xp.BrowserStack" name="Open_Internal_Site" time="28.041"/>
+  </testsuite>
+</testsuites>

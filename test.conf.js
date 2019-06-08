@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/getAttribute.js"
+        "src/waitForDisappeared.js"
     ],
     capabilities: [
         {
