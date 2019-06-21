@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API_Learning" timestamp="2019-06-08T17:03:38" time="5.204" tests="1" failures="0" errors="1" skipped="0">
+  <testsuite name="Login_Type_01" timestamp="2019-06-22T00:08:56" time="6.491" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="API Learning"/>
-      <property name="capabilities" value="chrome.74_0_3729_169.windowsnt"/>
-      <property name="file" value=".\src\waitForDisappeared.js"/>
+      <property name="suiteName" value="Login Type 01"/>
+      <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
+      <property name="file" value=".\src\test-scripts\Login_Type_1.js"/>
     </properties>
-    <testcase classname="chrome.74_0_3729_169.windowsnt.API_Learning" name="Wait_for_Disappeared" time="5.203">
-      <error message="[ERR] Login process takes longer than 5s"/>
-      <system-err>
-        <![CDATA[
-Error: [ERR] Login process takes longer than 5s
-    at timer.catch.e (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriverio\build\commands\browser\waitUntil.js:70:15)
-    at Element.runCommand (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\wrapCommand.js:31:24)
-    at Element.<anonymous> (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\wrapCommand.js:53:31)
-    at Element.fn (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriverio\build\middlewares.js:27:57)
-    at Element.<anonymous> (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriverio\build\middlewares.js:50:8)
-    at Element.waitForDisplayed (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:52:15)
-    at Element.runCommand (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\wrapCommand.js:37:32)
-    at Context.it (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\waitForDisappeared.js:24:21)
-    at Promise (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:58:22)
-    at Context.executeSync (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:56:10)
-    at C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:202:70
-]]>
-      </system-err>
-    </testcase>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.Login_Type_01" name="Login_to_the_Page" time="6.489"/>
   </testsuite>
 </testsuites>
