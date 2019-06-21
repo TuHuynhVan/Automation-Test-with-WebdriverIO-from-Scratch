@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/test-scripts/Login_Type_1.js"
+        "src/test-scripts/Login_Type_2.js"
     ],
     capabilities: [
         {

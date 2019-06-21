@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Login_Type_01" timestamp="2019-06-22T00:08:56" time="6.491" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="PO_type_2" timestamp="2019-06-22T00:22:20" time="6.485" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="Login Type 01"/>
+      <property name="suiteName" value="PO type 2"/>
       <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
-      <property name="file" value=".\src\test-scripts\Login_Type_1.js"/>
+      <property name="file" value=".\src\test-scripts\Login_Type_2.js"/>
     </properties>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.Login_Type_01" name="Login_to_the_Page" time="6.489"/>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.PO_type_2" name="Login_to_the_Page" time="6.484"/>
   </testsuite>
 </testsuites>
