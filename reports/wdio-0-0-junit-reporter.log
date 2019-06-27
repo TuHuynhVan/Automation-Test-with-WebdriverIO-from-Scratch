@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="PO_3" timestamp="2019-06-27T12:26:55" time="4.719" tests="1" failures="0" errors="1" skipped="0">
+  <testsuite name="PO_3" timestamp="2019-06-27T12:55:49" time="6.823" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="PO -3"/>
       <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
       <property name="file" value=".\src\test-scripts\Login_Type_3.js"/>
     </properties>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.PO_3" name="Login_To_the_page" time="4.717">
-      <error message="Cannot read property 'clickOnLoginBtn' of undefined"/>
-      <system-err>
-        <![CDATA[
-TypeError: Cannot read property 'clickOnLoginBtn' of undefined
-    at Context.it (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\test-scripts\Login_Type_3.js:14:13)
-    at Promise (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:58:22)
-    at Context.executeSync (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:56:10)
-    at C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:202:70
-]]>
-      </system-err>
-    </testcase>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.PO_3" name="Login_To_the_page" time="6.822"/>
   </testsuite>
 </testsuites>

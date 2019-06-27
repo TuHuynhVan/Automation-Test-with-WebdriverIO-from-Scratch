@@ -5,7 +5,8 @@ describe('PO -3', () => {
     it('Login To the page', () => {
 
         // 1. Open the target page
-        browser.url("http://the-internet.herokuapp.com/login");
+        
+        LoginPage.openTestingPage('/login');
 
         // 2. Call PO's interactionMethod
         LoginPage
