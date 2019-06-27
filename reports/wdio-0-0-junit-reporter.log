@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Login_Funtion" timestamp="2019-06-27T14:46:05" time="0.008" tests="2" failures="0" errors="0" skipped="0">
+  <testsuite name="LOGIN" timestamp="2019-06-27T15:07:47" time="6.544" tests="2" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="Login Funtion"/>
+      <property name="suiteName" value="LOGIN"/>
       <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
-      <property name="file" value=".\src\test-scripts\LoginFuntion.js"/>
+      <property name="file" value=".\src\test-scripts\TC_001_LoginOK.js"/>
     </properties>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.Login_Funtion" name="Login_Failed" time="0.002"/>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.Login_Funtion" name="Login_Passed" time="0.001"/>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="Login_OK" time="1.291"/>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="LOgin_FAILED" time="1.445"/>
   </testsuite>
 </testsuites>

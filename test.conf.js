@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/test-scripts/LoginFuntion.js"
+        "src/test-scripts/TC_001_LoginOK.js"
     ],
     capabilities: [
         {
