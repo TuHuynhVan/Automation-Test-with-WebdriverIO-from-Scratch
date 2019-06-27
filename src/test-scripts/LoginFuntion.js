@@ -5,26 +5,27 @@ describe('Login Funtion', () => {
     before(() => {
         // 1. Do something in common for all test scripts
         // 2. To create testing data for all scripts
-        browser.url('/login')
+        console.log("START")
+    });
+
+    beforeEach(() => {
+        console.log('\tBefore Script')
+    });
+
+    afterEach(() => {
+        console.log('\tAfter Script')
     });
 
     it('Login Failed', () => {
-        LoginPage
-            .inputUsername('sfdsj')
-            .inputPassword('kjsdfhsa')
-            .clickOnLoginBtn();
+        console.log('\t\tTC_001')
     });
 
     it('Login Passed', () => {
-        browser.url('/login')
-        LoginPage
-            .inputUsername('tomsmith')
-            .inputPassword('SuperSecretPassword!')
-            .clickOnLoginBtn();
+        console.log('\t\tTC_002')
     });
 
     after(() => {
         // 1. Clean up testing data
-        console.log('=> Testing DONE')
+        console.log('=> DONE')
     });
 });
