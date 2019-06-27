@@ -2,7 +2,7 @@ exports.config = {
 
     // Test Scripts
     specs: [
-        "src/test-scripts/Login_Type_3.js"
+        "src/test-scripts/LoginFuntion.js"
     ],
     capabilities: [
         {
@@ -15,6 +15,8 @@ exports.config = {
     hostname: 'localhost',
     port: 9515,
     path: '//',
+
+    baseUrl: "http://the-internet.herokuapp.com",
 
     // Test Framework
     framework: 'mocha',

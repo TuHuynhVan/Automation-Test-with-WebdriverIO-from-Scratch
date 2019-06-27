@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="PO_3" timestamp="2019-06-27T12:26:55" time="4.719" tests="1" failures="0" errors="1" skipped="0">
+  <testsuite name="Login_Funtion" timestamp="2019-06-27T13:37:38" time="4.684" tests="2" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="PO -3"/>
+      <property name="suiteName" value="Login Funtion"/>
       <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
-      <property name="file" value=".\src\test-scripts\Login_Type_3.js"/>
+      <property name="file" value=".\src\test-scripts\LoginFuntion.js"/>
     </properties>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.PO_3" name="Login_To_the_page" time="4.717">
-      <error message="Cannot read property 'clickOnLoginBtn' of undefined"/>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.Login_Funtion" name="Login_Failed" time="1.124"/>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.Login_Funtion" name="Login_Passed" time="0.076">
+      <error message="invalid session id&#xA;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)"/>
       <system-err>
         <![CDATA[
-TypeError: Cannot read property 'clickOnLoginBtn' of undefined
-    at Context.it (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\test-scripts\Login_Type_3.js:14:13)
+Error: invalid session id
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+    at getErrorFromResponseBody (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriver\build\utils.js:349:10)
+    at Request._callback (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriver\build\request.js:121:64)
+    at Request.self.callback (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\request\request.js:185:22)
+    at Request.<anonymous> (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\request\request.js:1161:10)
+    at IncomingMessage.<anonymous> (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\request\request.js:1083:12)
+    at Browser.runCommand (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\wrapCommand.js:31:24)
+    at Browser.<anonymous> (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\wrapCommand.js:53:31)
+    at Browser.url (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\webdriverio\build\commands\browser\url.js:57:15)
+    at Browser.runCommand (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\wrapCommand.js:37:32)
+    at Context.it (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\test-scripts\LoginFuntion.js:21:17)
     at Promise (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:58:22)
     at Context.executeSync (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:56:10)
     at C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:202:70
