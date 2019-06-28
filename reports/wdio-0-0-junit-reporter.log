@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API_Learning" timestamp="2019-06-28T15:25:28" time="15.951" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="LOGIN" timestamp="2019-06-28T16:00:20" time="11.072" tests="1" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="API Learning"/>
+      <property name="suiteName" value="LOGIN"/>
       <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
-      <property name="file" value=".\src\api-learning\alertHandle.js"/>
+      <property name="file" value=".\src\test-scripts\TC_001_LoginOK.js"/>
     </properties>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.API_Learning" name="Alert_Handle" time="15.95"/>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="Login_OK" time="4.276">
+      <error message="[ERR] WRONG welcome Text: expected 'Welcome to the Secure Area. When you are done click logout below.' to equal '___ Welcome to the Secure Area. When you are done click logout below.'"/>
+      <system-err>
+        <![CDATA[
+AssertionError: [ERR] WRONG welcome Text: expected 'Welcome to the Secure Area. When you are done click logout below.' to equal '___ Welcome to the Secure Area. When you are done click logout below.'
+    at Welcome.verifyWelcomeText (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\page-objects\Welcome.js:17:39)
+    at Context.it (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\test-scripts\TC_001_LoginOK.js:20:21)
+    at Promise (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:58:22)
+    at Context.executeSync (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:56:10)
+    at C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:202:70
+]]>
+      </system-err>
+    </testcase>
   </testsuite>
 </testsuites>

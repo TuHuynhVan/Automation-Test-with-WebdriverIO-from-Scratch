@@ -5,8 +5,8 @@ exports.config = {
     // Test Scripts
     specs: [
         "src/test-scripts/TC_001_LoginOK.js",
-        "src/test-scripts/TC_002_Login_wrong_username.js",
-        "src/test-scripts/TC_003_Login_wrong_password.js"
+        // "src/test-scripts/TC_002_Login_wrong_username.js",
+        // "src/test-scripts/TC_003_Login_wrong_password.js"
     ],
 
     suites: {
@@ -17,7 +17,7 @@ exports.config = {
         login_function: [
             "src/test-scripts/TC_001_LoginOK.js",
             "src/test-scripts/TC_002_Login_wrong_username.js",
-            "src/test-scripts/TC_003_Login_wrong_password.js" 
+            "src/test-scripts/TC_003_Login_wrong_password.js"
         ]
     },
     maxInstances: 2,
@@ -52,5 +52,13 @@ exports.config = {
 
     before: () => {
         global.expect = chai.expect;
+    },
+
+    afterTest: (test) => {
+        // 1. I wanna save a PNG File when the test failed
+        if(test.passed === false){
+            let fileName = test.fullTitle;
+            browser.saveScreenshot('./' + fileName + '.png')
+        }
     }
 }
