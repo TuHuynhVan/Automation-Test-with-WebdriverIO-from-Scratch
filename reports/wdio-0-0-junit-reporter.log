@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="LOGIN" timestamp="2019-06-28T11:57:09" time="10.254" tests="1" failures="0" errors="1" skipped="0">
+  <testsuite name="LOGIN" timestamp="2019-06-28T15:03:53" time="18.445" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="LOGIN"/>
       <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
       <property name="file" value=".\src\test-scripts\TC_001_LoginOK.js"/>
     </properties>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="Login_OK" time="1.353">
-      <error message="[ERR] Welcome text is wrong TC_001: expected 'Welcome to the Secure Area. When you are done click logout below.' to equal 'xxx_ Welcome to the Secure Area. When you are done click logout below.'"/>
-      <system-err>
-        <![CDATA[
-AssertionError: [ERR] Welcome text is wrong TC_001: expected 'Welcome to the Secure Area. When you are done click logout below.' to equal 'xxx_ Welcome to the Secure Area. When you are done click logout below.'
-    at Context.it (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\test-scripts\TC_001_LoginOK.js:23:39)
-    at Promise (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:58:22)
-    at Context.executeSync (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:56:10)
-    at C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:202:70
-]]>
-      </system-err>
-    </testcase>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="Login_OK" time="3.687"/>
   </testsuite>
 </testsuites>
