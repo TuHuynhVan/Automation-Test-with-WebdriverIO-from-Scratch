@@ -16,11 +16,8 @@ describe('LOGIN', () => {
             .inputUsername(VALID_LOGIN_CREDS.username)
             .inputPassword(VALID_LOGIN_CREDS.password)
             .clickOnLoginBtn();
-
-        let currentWelcomeText = WelcomePage.getWelcomeText();
-        let expectedWelcomeText = "Welcome to the Secure Area. When you are done click logout below.";
-
-        expect(currentWelcomeText).to.equal(expectedWelcomeText, '[ERR] Welcome text is wrong TC_001');
+            
+        WelcomePage.verifyWelcomeText();
     });
 
 });
