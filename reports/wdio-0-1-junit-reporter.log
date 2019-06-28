@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="LOGIN" timestamp="2019-06-28T15:03:53" time="14.924" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API_learning" timestamp="2019-06-28T15:25:28" time="17.126" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="LOGIN"/>
+      <property name="suiteName" value="API learning"/>
       <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
-      <property name="file" value=".\src\test-scripts\TC_002_Login_wrong_username.js"/>
+      <property name="file" value=".\src\api-learning\click.js"/>
     </properties>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="Login_with_wrong_username" time="4.059"/>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.API_learning" name="Click_on_Link_Text" time="17.124"/>
   </testsuite>
 </testsuites>
