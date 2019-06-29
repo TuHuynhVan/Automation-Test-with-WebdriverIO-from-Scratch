@@ -20,11 +20,17 @@ exports.config = {
             "src/test-scripts/TC_003_Login_wrong_password.js"
         ]
     },
-    maxInstances: 2,
+    maxInstances: 5,
 
     capabilities: [
         {
             browserName: "chrome"
+        },
+        {
+            browserName: "firefox"
+        },
+        {
+            browserName: "MicrosoftEdge"
         }
     ],
     runner: 'local',
