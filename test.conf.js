@@ -31,8 +31,8 @@ exports.config = {
 
     // Declare server info
     hostname: 'localhost',
-    port: 9515,
-    path: '//',
+    port: 4444,
+    // path: '//',
 
     baseUrl: "http://the-internet.herokuapp.com",
 
