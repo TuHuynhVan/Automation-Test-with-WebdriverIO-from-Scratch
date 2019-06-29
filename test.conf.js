@@ -1,5 +1,9 @@
 let chai = require("chai");
 
+const GRID_IP = process.env.GRID_IP;
+const GRID_PORT = process.env.GRID_PORT;
+const TESTING_URL = process.env.TESTING_URL;
+
 exports.config = {
 
     // Test Scripts
@@ -36,11 +40,11 @@ exports.config = {
     runner: 'local',
 
     // Declare server info
-    hostname: 'localhost',
-    port: 4444,
+    hostname: GRID_IP,
+    port: parseInt(GRID_PORT, 10),
     // path: '//',
 
-    baseUrl: "http://the-internet.herokuapp.com",
+    baseUrl: TESTING_URL,
 
     // Test Framework
     framework: 'mocha',

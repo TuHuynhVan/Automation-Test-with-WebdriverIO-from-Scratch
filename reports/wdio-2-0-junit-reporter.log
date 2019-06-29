@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="LOGIN" timestamp="2019-06-29T15:48:13" time="12.705" tests="1" failures="0" errors="1" skipped="0">
+  <testsuite name="LOGIN" timestamp="2019-06-29T16:09:25" time="7.709" tests="1" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="LOGIN"/>
       <property name="capabilities" value="microsoftedge.44_17763_1_0.windows"/>
       <property name="file" value=".\src\test-scripts\TC_001_LoginOK.js"/>
     </properties>
-    <testcase classname="microsoftedge.44_17763_1_0.windows.LOGIN" name="Login_OK" time="2.414">
-      <error message="[ERR] WRONG welcome Text: expected 'This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is wrong you should see error messages.' to equal '___ Welcome to the Secure Area. When you are done click logout below.'"/>
+    <testcase classname="microsoftedge.44_17763_1_0.windows.LOGIN" name="Login_OK" time="3.166">
+      <error message="[ERR] WRONG welcome Text: expected 'Welcome to the Secure Area. When you are done click logout below.' to equal '___ Welcome to the Secure Area. When you are done click logout below.'"/>
       <system-err>
         <![CDATA[
-AssertionError: [ERR] WRONG welcome Text: expected 'This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is wrong you should see error messages.' to equal '___ Welcome to the Secure Area. When you are done click logout below.'
+AssertionError: [ERR] WRONG welcome Text: expected 'Welcome to the Secure Area. When you are done click logout below.' to equal '___ Welcome to the Secure Area. When you are done click logout below.'
     at Welcome.verifyWelcomeText (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\page-objects\Welcome.js:17:39)
     at Context.it (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\src\test-scripts\TC_001_LoginOK.js:20:21)
     at Promise (C:\DATA\TestNovation_YouTube\Automation-Test-with-WebdriverIO-from-Scratch\node_modules\@wdio\sync\build\index.js:58:22)
