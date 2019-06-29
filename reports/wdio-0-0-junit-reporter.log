@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="LOGIN" timestamp="2019-06-28T16:00:20" time="11.072" tests="1" failures="0" errors="1" skipped="0">
+  <testsuite name="LOGIN" timestamp="2019-06-29T14:48:03" time="6.507" tests="1" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="LOGIN"/>
       <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
       <property name="file" value=".\src\test-scripts\TC_001_LoginOK.js"/>
     </properties>
-    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="Login_OK" time="4.276">
+    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="Login_OK" time="1.14">
       <error message="[ERR] WRONG welcome Text: expected 'Welcome to the Secure Area. When you are done click logout below.' to equal '___ Welcome to the Secure Area. When you are done click logout below.'"/>
       <system-err>
         <![CDATA[

@@ -56,9 +56,9 @@ exports.config = {
 
     afterTest: (test) => {
         // 1. I wanna save a PNG File when the test failed
-        if(test.passed === false){
+        if (test.passed === false) {
             let fileName = test.fullTitle;
             browser.saveScreenshot('./' + fileName + '.png')
         }
-    }
+    },
 }
