@@ -1,0 +1,1 @@
+java -jar -Dwebdriver.gecko.driver=C:/DATA/GRID_SYSTEM/geckodriver.exe -Dwebdriver.chrome.driver=C:/DATA/GRID_SYSTEM/chromedriver.exe -Dwebdriver.edge.driver="C:/Windows/System32/MicrosoftWebDriver.exe" C:/DATA/GRID_SYSTEM/selenium-server-standalone-3.141.59.jar -role node -nodeConfig C:/DATA/GRID_SYSTEM/node_config.json

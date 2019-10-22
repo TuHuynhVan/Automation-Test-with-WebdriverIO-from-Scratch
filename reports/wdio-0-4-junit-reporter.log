@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="LOGIN" timestamp="2019-06-28T15:26:05" time="10.496" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="LOGIN"/>
+      <property name="capabilities" value="chrome.75_0_3770_100.windowsnt"/>
+      <property name="file" value=".\src\test-scripts\TC_003_Login_wrong_password.js"/>
+    </properties>
+    <testcase classname="chrome.75_0_3770_100.windowsnt.LOGIN" name="Login_with_wrong_password" time="4.039"/>
+  </testsuite>
+</testsuites>

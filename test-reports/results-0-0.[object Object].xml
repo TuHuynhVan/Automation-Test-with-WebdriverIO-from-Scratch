@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="APi_Learning" timestamp="2019-06-12T23:40:52" time="11.732" tests="2" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="APi Learning"/>
+      <property name="capabilities" value="chrome.75_0_3770_80.windowsnt"/>
+      <property name="file" value=".\src\multipleTestCases.js"/>
+    </properties>
+    <testcase classname="chrome.75_0_3770_80.windowsnt.APi_Learning" name="alert_handle" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.75_0_3770_80.windowsnt.APi_Learning" name="uploadFile" time="11.731"/>
+  </testsuite>
+  <testsuite name="API_Learning_02" timestamp="2019-06-12T23:41:04" time="15.243" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="API Learning 02"/>
+      <property name="capabilities" value="chrome.75_0_3770_80.windowsnt"/>
+      <property name="file" value=".\src\multipleTestCases.js"/>
+    </properties>
+    <testcase classname="chrome.75_0_3770_80.windowsnt.API_Learning_02" name="click" time="15.243"/>
+  </testsuite>
+</testsuites>

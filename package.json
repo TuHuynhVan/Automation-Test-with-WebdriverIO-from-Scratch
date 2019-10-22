@@ -1,0 +1,21 @@
+{
+  "name": "Automation-Test-with-WebdriverIO-from-Scratch",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=acvsI2dHyVI&list=PLBNb67lT6eEL5q2QVJis_TeHYHJ0Lx55K",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "dependencies": {
+    "@wdio/cli": "^5.8.3",
+    "@wdio/local-runner": "^5.8.3",
+    "@wdio/sync": "^5.8.1",
+    "browserstack-local": "^1.4.0",
+    "chai": "^4.2.0",
+    "webdriverio": "^5.8.3"
+  },
+  "devDependencies": {
+    "@wdio/junit-reporter": "^5.8.0",
+    "@wdio/mocha-framework": "^5.8.1"
+  }
+}
