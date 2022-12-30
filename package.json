@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "@wdio/junit-reporter": "^5.8.0",
-    "@wdio/mocha-framework": "^5.8.1"
+    "@wdio/mocha-framework": "^8.0.14"
   }
 }
